@@ -1,5 +1,12 @@
 // // 2
 // import java.util.Scanner;
+/*2.A banking system wants to calculate the interest earned in a savings account. 
+Write a Java program that takes the principal amount, interest rate, and time as input and
+ returns the interest earned.
+i.Write a function named calculate Interest that takes the principal amount, 
+interest rate, and time period as parameters and returns the interest earned.
+ii.Display the calculated interest amount on the console. */
+
 
 // public class BankingSystem {
 //     // Function to calculate the interest earned
@@ -30,13 +37,23 @@
 
 //         scanner.close();
 //     }
-
-
 // }
+// // output
+// // Enter the principal amount: 1000
+// // Enter the interest rate (as a decimal): 10
+// // Enter the time period (in years): 1
+// // Interest Earned: $100.0
 
 
 
 // //9
+/*
+9.You are developing a simple banking system. There are two types of accounts: 
+Savings Account and Current Account. The Savings Account class inherits from the Account class. 
+The Account class has a method called get Account Info(), which displays the account details. 
+The Savings Account class also has a method called calculate Interest (), which calculates and
+ displays the interest based on the account balance. Implement the classes and demonstrate the inheritance.
+ */
 // class Account {
 //     private String accountNumber;
 //     private String accountHolderName;
@@ -118,6 +135,10 @@ public class BankingSystem {
         savingsAccount.calculateInterest();
     }
 }
-
+// output
+// Account Number: SA001
+// Account Holder Name: John Doe
+// Account Balance: $5000.0
+// Interest Amount: $250.0
 
 

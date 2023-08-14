@@ -1,3 +1,4 @@
+// 5 Ensure that the account balance cannot be accessed or modified directly.
 package Encaptulation;
 
 class BankAccount {
@@ -54,3 +55,7 @@ public class BankingApplication {
         System.out.println("Current Account Balance: $" + balance);
     }
 }
+// output
+// Deposit of $500.0 successful. New balance: $1500.0
+// Withdrawal of $200.0 successful. New balance: $1300.0
+// Current Account Balance: $1300.0

@@ -1,5 +1,12 @@
 // 3
 import java.util.Scanner;
+/*3.A shopping website wants to calculate the discount amount for a customer's purchase
+ based on the total bill. Write a Java program that takes the total bill amount as input
+  and returns the discount amount.
+i.Write a function named calculate Discount that takes the total bill amount as a parameter
+ and returns the discount amount. (10% discount)
+ii.Display the calculated discount amount on the console. */
+
 
 public class DiscountCalculator {
     public static void main(String[] args) {
@@ -22,3 +29,5 @@ public class DiscountCalculator {
         return discountAmount;
     }
 }
+// outputEnter the total bill amount: 1000
+// Discount amount: $100.0

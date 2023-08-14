@@ -1,4 +1,12 @@
 // //20
+/*20.You are developing a media player application. There is a base class called Media Player, which has methods
+ like play (), pause (), and stop (). The Video Player class inherits from Media Player and adds methods like 
+ rewind () and fast-forward (). Additionally, there is an interface called Playlist, which defines methods like
+  add Song () and remove Song (). The Video Player class implements the Playlist interface. Implement the classes
+   and demonstrate inheritance with interface by creating objects of the Video Player class and calling its methods
+    and the interface methods. */
+
+
 // Interface defining methods for managing a playlist
 interface Playlist {
     void addSong(String song);
@@ -62,3 +70,12 @@ public class MediaPlayerApp {
         videoPlayer.removeSong("Song 2");
     }
 }
+// output
+// Playing media.
+// Pausing media.
+// Stopping media.
+// Rewinding media.
+// Fast-forwarding media.
+// Adding song: Song 1 to the playlist.
+// Adding song: Song 2 to the playlist.
+// Removing song: Song 2 from the playlist.

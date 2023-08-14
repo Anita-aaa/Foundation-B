@@ -1,3 +1,10 @@
+/*
+28. You are building a payroll system for a company. The system has a class Employee with a method
+ calculateSalary() to calculate the salary of an employee. Now, you need to create a derived class Manager
+  that inherits from Employee and overrides the calculateSalary() method to include a bonus calculation 
+  based on the performance. Implement the classes and demonstrate method overriding for calculating the 
+  salary of a manager.
+  */
 class Employee {
     double basicSalary;
 
@@ -32,7 +39,7 @@ class Manager extends Employee {
 public class PayrollSystem {
     public static void main(String[] args) {
         // Create an object of the Manager class with a basic salary and bonus percentage
-        Manager manager = new Manager(50000, 15);
+        Manager manager = new Manager(100, 5);
 
         // Call the calculateSalary method for the manager to calculate the salary including the bonus
         double managerSalary = manager.calculateSalary();
@@ -41,3 +48,5 @@ public class PayrollSystem {
         System.out.println("Manager's Salary: $" + managerSalary);
     }
 }
+// output
+// Manager's Salary: $105.0

@@ -1,4 +1,12 @@
 //11
+
+/*
+11.You are building a library management system. The base class is Item, which represents a library item
+ and has attributes like title and publication Year, and a method called display Info (). The subclasses
+  are Book and DVD, which inherit from Item. The Book class adds attributes like author* and Pagecount, 
+  and the DVD class adds attributes like director and duration. Implement the classes and demonstrate the
+   combination of single and hierarchical inheritance by creating objects of each class and calling their 
+   respective methods. */
 class Item {
     String title;
     int publicationYear;
@@ -69,4 +77,12 @@ public class LibraryManagementSystem {
         dvd.displayInfo();
     }
 }
-
+// output
+// Title: The Great Gatsby
+// Publication Year: 1925
+// Author: F. Scott Fitzgerald
+// Page Count: 180
+// Title: Inception
+// Publication Year: 2010
+// Director: Christopher Nolan
+// Duration: 148 minutes

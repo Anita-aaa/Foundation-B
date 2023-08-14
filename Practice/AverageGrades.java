@@ -1,6 +1,10 @@
 // 1
 // import java.util.Arrays;
-
+/*1.The university wants to calculate the average grades of students in a particular course.
+ Write a Java program that takes an array of grades as input and returns the average grade.
+i.Write a function named calculate Average that takes an array of integers as a parameter 
+and returns the average of the values.
+ii.Display the calculated average grade on the console. */
 public class AverageGrades {
     // Function to calculate the average of grades in an array
     public static double calculateAverage(int[] grades) {
@@ -35,3 +39,5 @@ public class AverageGrades {
         System.out.println("Average Grade: " + averageGrade);
     }
 }
+// output
+// Average Grade: 86.6

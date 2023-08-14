@@ -1,4 +1,12 @@
+
 // 10
+
+/*10.You are building a shape hierarchy for a graphics application. 
+There is a base class called Shape, which has a method called display ().
+ The Rectangle class inherits from Shape and has additional attributes 
+ and methods specific to rectangles. The Square class inherits from the Rectangle class and 
+ overrides the display () method to show the special properties of a square. Implement the classes 
+ and demonstrate multilevel inheritance by creating objects of each class and calling their respective methods. */
 class Shape {
     void display() {
         System.out.println("This is a generic shape.");
@@ -53,3 +61,12 @@ public class GraphicsApplication {
         System.out.println("Area: " + square.getArea());
     }
 }
+// output
+// This is a generic shape.
+// This is a rectangle.
+// Length: 5.0
+// Width: 3.0
+// Area: 15.0
+// This is a square.
+// Side Length: 4.0
+// Area: 16.0
